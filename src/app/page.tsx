@@ -36,8 +36,8 @@ export default function Home() {
         <p className="hidden lg:block relative mb-[50px] px-10 py-6 rounded-[12px] border border-grey20 bg-grey1 ">For <Fors name="Startups" />, <Fors name="Enterprise leaders" />, <Fors name="Media & Publishers" /> and <Fors name="Social Good" /></p>
         <p className="lg:hidden relative mb-[50px] px-10 py-6 text-[12px] rounded-[12px] border border-grey20 bg-grey1 ">For Startups, Enterprise leaders, Media & Publishers and Social Good</p>
         <div className="flex z-10 items-center gap-x-5">
-          <Btn title="Our Works Us" bgColor={false} />
-          <Btn title="Contact Us" link="/contact" />
+          <Btn title="Our Works Us" bgColor={false} link="/Digital-Agency-Company/work" />
+          <Btn title="Contact Us" link="/Digital-Agency-Company/contact" />
         </div>
       </section> 
       <section className="container mx-auto relative lg:p-[40px] flex flex-col justify-between gap-y-10 border border-grey20">
