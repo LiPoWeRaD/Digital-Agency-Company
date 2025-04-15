@@ -19,12 +19,12 @@ interface AgentsProps {
 export default function Home() {
 
   const companies: AgentsProps[] = [
-    {name: "zapier", img: "/zapier.png"},
-    {name: "spotify", img: "/spotify.png"},
-    {name: "zoom", img: "/zoom.png"},
-    {name: "slack", img: "/slack.png"},
-    {name: "amazon", img: "/amazon.png"},
-    {name: "adobe", img: "/adobe.png"},
+    {name: "zapier", img: "/images/zapier.png"},
+    {name: "spotify", img: "/images/spotify.png"},
+    {name: "zoom", img: "/images/zoom.png"},
+    {name: "slack", img: "/images/slack.png"},
+    {name: "amazon", img: "/images/amazon.png"},
+    {name: "adobe", img: "/images/adobe.png"},
   ];
   
   return (
@@ -77,17 +77,17 @@ export default function Home() {
           <p className="mb-[120px] text-lg text-center z-10">Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering exceptional results.</p>
         </div>
         <ul className="container mx-auto flex flex-col lg:flex-row flex-wrap">
-          <ServicesCard className="w-1/2" img="/Expertise.png" title="Expertise" description="Our team consists of highly skilled professionals who have a deep understanding of the digital landscape. 
+          <ServicesCard className="w-1/2" img="/images/Expertise.png" title="Expertise" description="Our team consists of highly skilled professionals who have a deep understanding of the digital landscape. 
                         We stay updated with the latest industry trends and best practices to deliver cutting-edge solutions." link="#" titleRow={true} btn={false} />
 
-          <ServicesCard className="w-1/2" img="/Approach.png" title="Client-Centric Approach" description="We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, 
+          <ServicesCard className="w-1/2" img="/images/Approach.png" title="Client-Centric Approach" description="We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, 
                         and tailor our services to meet your specific requirements. Your success is our success." link="#" titleRow={true} btn={false} />
 
-          <ServicesCard className="w-1/2" img="/Solutions.png" title="Results-Driven Solutions" description="Our primary focus is on delivering results. 
+          <ServicesCard className="w-1/2" img="/images/Solutions.png" title="Results-Driven Solutions" description="Our primary focus is on delivering results. 
                         We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, 
                         and provide a competitive advantage." link="#" titleRow={true} btn={false} />
 
-          <ServicesCard className="w-1/2" img="/Partnership.png" title="Collaborative Partnership" description="We value long-term relationships with our clients. 
+          <ServicesCard className="w-1/2" img="/images/Partnership.png" title="Collaborative Partnership" description="We value long-term relationships with our clients. 
                         We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive." link="#" titleRow={true} btn={false} />
         </ul>
       </section>
@@ -102,27 +102,27 @@ export default function Home() {
         <ul className="container mx-auto flex flex-col xl:flex-row flex-wrap">
           <ClientsCard className="w-1/2" title="SquareUp has been Instrumental in Transforming our Online Presence." description="Their team's expertise in web development and design resulted in a 
                        visually stunning and user-friendly e-commerce platform. 
-                       Our online sales have skyrocketed, and we couldn't be happier." name="John Smith" position="CEO of Chic Boutique" img="/JohnSmith.jpg" link="#" />
+                       Our online sales have skyrocketed, and we couldn't be happier." name="John Smith" position="CEO of Chic Boutique" img="/images/JohnSmith.jpg" link="#" />
 
           <ClientsCard className="w-1/2" title="Working with SquareUp was a breeze." description="They understood our vision for a mobile app that streamlined our food delivery service. 
                       The app they delivered exceeded our expectations, and our customers love the seamless 
-                      ordering experience. SquareUp is a trusted partner we highly recommend." name="Sarah Johnson" position="Founder of HungryBites." img="/SarahJohnson.jpg" link="#" />
+                      ordering experience. SquareUp is a trusted partner we highly recommend." name="Sarah Johnson" position="Founder of HungryBites." img="/images/SarahJohnson.jpg" link="#" />
           
           <ClientsCard className="w-1/2" title="SquareUp developed a comprehensive booking and reservation system for our event management company" description="Their attention to detail and commitment to delivering 
                        a user-friendly platform was evident throughout the project. 
-                       The system has streamlined our operations and enhanced our clients' event experiences." name="Mark Thompson" position="CEO of EventMasters" img="/MarkThompson.jpg" link="#" />
+                       The system has streamlined our operations and enhanced our clients' event experiences." name="Mark Thompson" position="CEO of EventMasters" img="/images/MarkThompson.jpg" link="#" />
 
           <ClientsCard className="w-1/2" title="ProTech Solutions turned to SquareUp to automate our workflow" description="They delivered an exceptional custom software solution. 
                        The system has significantly increased our productivity and reduced manual errors. 
-                       SquareUp's expertise and professionalism have made them a trusted technology partner." name="Laura Adams" position="COO of ProTech Solutions." img="/LauraAdams.jpg" link="#" />
+                       SquareUp's expertise and professionalism have made them a trusted technology partner." name="Laura Adams" position="COO of ProTech Solutions." img="/images/LauraAdams.jpg" link="#" />
 
           <ClientsCard className="w-1/2" title="SquareUp designed and developed a captivating web portal for showcasing our real estate listings." description="The platform is visually appealing and easy to navigate, 
                        allowing potential buyers to find their dream homes effortlessly. 
-                       SquareUp's expertise in the real estate industry is unmatched." name="Michael Anderson" position="Founder of Dream Homes Realty." img="/MichaelAnderson.jpg" link="#" />
+                       SquareUp's expertise in the real estate industry is unmatched." name="Michael Anderson" position="Founder of Dream Homes Realty." img="/images/MichaelAnderson.jpg" link="#" />
 
           <ClientsCard className="w-1/2" title="FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans." description="SquareUp's team developed an intuitive and 
                        feature-rich app that has helped our users stay motivated and achieve their fitness goals. 
-                       We highly recommend SquareUp for any health and fitness app development needs." name="Emily Turner" position="CEO of FitLife Tracker" img="/EmilyTurner.jpg" link="#" />
+                       We highly recommend SquareUp for any health and fitness app development needs." name="Emily Turner" position="CEO of FitLife Tracker" img="/images/EmilyTurner.jpg" link="#" />
         </ul>
       </section>
       <section className="container mx-auto bg-grey15">

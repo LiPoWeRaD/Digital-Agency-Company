@@ -24,10 +24,10 @@ const Services = () => {
                 <div className="grid grid-cols-1 border border-grey20">
                     <DesignServices 
                         title="User Experience (UX) Design" 
-                        img1="/Design/Research.png" 
-                        img2="/Design/Information.png" 
-                        img3="/Design/Interactive.png" 
-                        img4="/Design/UIDesign.png" 
+                        img1="/images/Design/Research.png" 
+                        img2="/images/Design/Information.png" 
+                        img3="/images/Design/Interactive.png" 
+                        img4="/images/Design/UIDesign.png" 
                         description1="User Research and Persona Development"
                         description2="Information Architecture and Wireframing"
                         description3="Interactive Prototyping and User Testing"
@@ -35,10 +35,10 @@ const Services = () => {
                     />
                     <DesignServices 
                         title="User Interface (UI) Design" 
-                        img1="/Design/Intuitive.png" 
-                        img2="/Design/Iconography.png" 
-                        img3="/Design/Typography.png" 
-                        img4="/Design/Responsive.png" 
+                        img1="/images/Design/Intuitive.png" 
+                        img2="/images/Design/Iconography.png" 
+                        img3="/images/Design/Typography.png" 
+                        img4="/images/Design/Responsive.png" 
                         description1="Intuitive and Visually Appealing Interface Design"
                         description2="Custom Iconography and Illustration"
                         description3="Typography and Color Palette Selection"
@@ -46,10 +46,10 @@ const Services = () => {
                     />
                     <DesignServices 
                         title="Branding and Identity" 
-                        img1="/Design/Identity.png" 
-                        img2="/Design/Strategy.png" 
-                        img3="/Design/Guidelines.png" 
-                        img4="/Design/Marketing.png" 
+                        img1="/images/Design/Identity.png" 
+                        img2="/images/Design/Strategy.png" 
+                        img3="/images/Design/Guidelines.png" 
+                        img4="/images/Design/Marketing.png" 
                         description1="Logo Design and Visual Identity Development"
                         description2="Brand Strategy and Positioning"
                         description3="Brand Guidelines and Style Guides"
@@ -67,10 +67,10 @@ const Services = () => {
                 <div className="grid grid-cols-1 border border-grey20">
                     <DesignServices 
                             title="Web Development" 
-                            img1="/Engineering/Front-End.png" 
-                            img2="/Engineering/Back-End.png" 
-                            img3="/Engineering/Content.png" 
-                            img4="/Engineering/E-Commerce.png" 
+                            img1="/images/Engineering/Front-End.png" 
+                            img2="/images/Engineering/Back-End.png" 
+                            img3="/images/Engineering/Content.png" 
+                            img4="/images/Engineering/E-Commerce.png" 
                             description1="Front-End Development (HTML, CSS, JavaScript)"
                             description2="Back-End Development (PHP, Python, Ruby)"
                             description3="Content Management System (CMS) Development (WordPress, Drupal)"
@@ -78,10 +78,10 @@ const Services = () => {
                         />
                         <DesignServices 
                             title="Mobile App Development" 
-                            img1="/Engineering/Native.png" 
-                            img2="/Engineering/Cross-Platform.png" 
-                            img3="/Engineering/Prototyping.png" 
-                            img4="/Engineering/Testing.png" 
+                            img1="/images/Engineering/Native.png" 
+                            img2="/images/Engineering/Cross-Platform.png" 
+                            img3="/images/Engineering/Prototyping.png" 
+                            img4="/images/Engineering/Testing.png" 
                             description1="Native iOS and Android App Development"
                             description2="Cross-Platform App Development (React Native, Flutter)"
                             description3="App Prototyping and UI/UX Design Integration"
@@ -89,10 +89,10 @@ const Services = () => {
                         />
                         <DesignServices 
                             title="Custom Software Development" 
-                            img1="/Engineering/Enterprise.png" 
-                            img2="/Engineering/Application.png" 
-                            img3="/Engineering/Integration.png" 
-                            img4="/Engineering/Legacy.png" 
+                            img1="/images/Engineering/Enterprise.png" 
+                            img2="/images/Engineering/Application.png" 
+                            img3="/images/Engineering/Integration.png" 
+                            img4="/images/Engineering/Legacy.png" 
                             description1="Enterprise Software Development"
                             description2="Custom Web Application Development"
                             description3="Integration with Third-Party APIs and Systems"
@@ -110,10 +110,10 @@ const Services = () => {
                 <div className="grid grid-cols-1 border border-grey20">
                     <DesignServices 
                         title="Project Planning and Scoping" 
-                        img1="/ProjectManagement/Requirements.png" 
-                        img2="/ProjectManagement/Project.png" 
-                        img3="/ProjectManagement/Resource.png" 
-                        img4="/ProjectManagement/Risk.png" 
+                        img1="/images/ProjectManagement/Requirements.png" 
+                        img2="/images/ProjectManagement/Project.png" 
+                        img3="/images/ProjectManagement/Resource.png" 
+                        img4="/images/ProjectManagement/Risk.png" 
                         description1="Requirements Gathering and Analysis"
                         description2="Project Roadmap and Timeline Development"
                         description3="Resource Allocation and Task Assignment"
@@ -121,10 +121,10 @@ const Services = () => {
                             />
                     <DesignServices 
                         title="Agile Development" 
-                        img1="/ProjectManagement/Iterative.png" 
-                        img2="/ProjectManagement/Scrum.png" 
-                        img3="/ProjectManagement/Regular.png" 
-                        img4="/ProjectManagement/Continuous.png" 
+                        img1="/images/ProjectManagement/Iterative.png" 
+                        img2="/images/ProjectManagement/Scrum.png" 
+                        img3="/images/ProjectManagement/Regular.png" 
+                        img4="/images/ProjectManagement/Continuous.png" 
                         description1="Iterative Development and Sprints"
                         description2="Scrum or Kanban Methodology Implementation"
                         description3="Regular Progress Updates and Demos"
@@ -132,10 +132,10 @@ const Services = () => {
                     />
                     <DesignServices 
                         title="Quality Assurance and Testing" 
-                        img1="/ProjectManagement/Test.png" 
-                        img2="/ProjectManagement/Functional.png" 
-                        img3="/ProjectManagement/Performance.png" 
-                        img4="/ProjectManagement/Bug.png" 
+                        img1="/images/ProjectManagement/Test.png" 
+                        img2="/images/ProjectManagement/Functional.png" 
+                        img3="/images/ProjectManagement/Performance.png" 
+                        img4="/images/ProjectManagement/Bug.png" 
                         description1="Test Planning and Execution"
                         description2="Functional and Usability Testing"
                         description3="Performance and Security Testing"

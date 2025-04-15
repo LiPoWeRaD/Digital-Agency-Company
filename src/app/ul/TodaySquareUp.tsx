@@ -14,7 +14,7 @@ const TodaySquareUp:FC<Props> = ({title, description, welcome, link}) => {
     return (
         <div className="flex p-5 xl:p-[80px] flex-col gap-[50px]">
             <div className="flex flex-col xl:flex-row gap-10 items-center">
-                <Image className="w-fit rounded-2xl" src="/box2.jpg" alt={title} width={100} height={100} />
+                <Image className="w-fit rounded-2xl" src="/images/box2.jpg" alt={title} width={100} height={100} />
                 <div className="flex flex-col">
                     <h3 className="mb-[30px] text-3xl text-center xl:text-left font-semibold">{title}</h3>
                     <p className="flex-1 text-center xl:text-left">{description}</p>

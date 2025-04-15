@@ -3,20 +3,20 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --bg-hero1: url("/heroSection1.png");
-  --bg-abstractDesign: url("/abstractDesign.png");
-  --bg-abstractService: url("/abstractService.png");
-  --bg-abstractAbout: url("/abstractAbout.png");
-  --bg-SquareUp1: url("/work/ChicBoutique.jpg");
-  --bg-SquareUp2: url("/work/HungryBites.jpg");
-  --bg-SquareUp3: url("/work/EventMasters.jpg");
-  --bg-SquareUp4: url("/work/ProTechSolutions.jpg");
-  --bg-SquareUp5: url("/work/DreamHomesRealty.jpg");
-  --bg-SquareUp6: url("/work/FitLifeTracker.jpg");
-  --bg-SquareUp7: url("/work/GlobalLogisticsSolutions.jpg");
-  --bg-SquareUp8: url("/work/EduConnect.jpg");
-  --bg-SquareUp9: url("/work/WanderWise.jpg");
-  --bg-SquareUp10: url("/work/ConnectCRM.jpg");
+  --bg-hero1: url("/images/heroSection1.png");
+  --bg-abstractDesign: url("/images/abstractDesign.png");
+  --bg-abstractService: url("/images/abstractService.png");
+  --bg-abstractAbout: url("/images/abstractAbout.png");
+  --bg-SquareUp1: url("/images/work/ChicBoutique.jpg");
+  --bg-SquareUp2: url("/images/work/HungryBites.jpg");
+  --bg-SquareUp3: url("/images/work/EventMasters.jpg");
+  --bg-SquareUp4: url("/images/work/ProTechSolutions.jpg");
+  --bg-SquareUp5: url("/images/work/DreamHomesRealty.jpg");
+  --bg-SquareUp6: url("/images/work/FitLifeTracker.jpg");
+  --bg-SquareUp7: url("/images/work/GlobalLogisticsSolutions.jpg");
+  --bg-SquareUp8: url("/images/work/EduConnect.jpg");
+  --bg-SquareUp9: url("/images/work/WanderWise.jpg");
+  --bg-SquareUp10: url("/images/work/ConnectCRM.jpg");
 }
 
 @theme inline {
