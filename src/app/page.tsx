@@ -19,12 +19,12 @@ interface AgentsProps {
 export default function Home() {
 
   const companies: AgentsProps[] = [
-    {name: "zapier", img: "/images/zapier.png"},
-    {name: "spotify", img: "/images/spotify.png"},
-    {name: "zoom", img: "/images/zoom.png"},
-    {name: "slack", img: "/images/slack.png"},
-    {name: "amazon", img: "/images/amazon.png"},
-    {name: "adobe", img: "/images/adobe.png"},
+    {name: "zapier", img: "images/zapier.png"},
+    {name: "spotify", img: "images/spotify.png"},
+    {name: "zoom", img: "images/zoom.png"},
+    {name: "slack", img: "images/slack.png"},
+    {name: "amazon", img: "images/amazon.png"},
+    {name: "adobe", img: "images/adobe.png"},
   ];
   
   return (
