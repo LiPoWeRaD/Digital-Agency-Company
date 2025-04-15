@@ -26,9 +26,9 @@ const Footer = () => {
                     <div className="flex flex-col xl:flex-row p-3.5 border border-grey20 items-center gap-5 rounded-[8px]">
                         <p>Stay Connected</p>
                         <ul className="flex items-center gap-x-4">
-                            <li><Link href="/"><Image src="/images/facebook.png" alt="facebook" width={64} height={64} /></Link></li>
-                            <li><Link href="/"><Image src="/images/twiter.png" alt="twitter" width={64} height={64} /></Link></li>
-                            <li><Link href="/"><Image src="/images/in.png" alt="in" width={64} height={64} /></Link></li>
+                            <li><Link href="/"><Image src="images/facebook.png" alt="facebook" width={64} height={64} /></Link></li>
+                            <li><Link href="/"><Image src="images/twiter.png" alt="twitter" width={64} height={64} /></Link></li>
+                            <li><Link href="/"><Image src="images/in.png" alt="in" width={64} height={64} /></Link></li>
                         </ul>
                     </div>
                 </div>

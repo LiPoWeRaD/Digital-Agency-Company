@@ -77,7 +77,7 @@ const About = () => {
                         <p className="absolute translate-y-1/2 scale-y-[-0.3] bottom-16 sm:bottom-auto sm:scale-y-[-0.5] xl:scale-y-[-0.6] 2xl:scale-y-[-0.8] h-[239px] lg:h-[245px] 2xl:h-[319px] z-20"><Line /></p>
                         <p className="absolute translate-x-1/2 scale-x-[0.3] left-[25%] sm:left-auto sm:scale-x-[0.5] xl:scale-x-[0.6] 2xl:scale-x-[0.8] w-[169px] lg:w-[150px] 2xl:w-[319px] z-20"><Line2 /></p>
                         <p className="absolute -translate-x-1/2 scale-x-[-0.3] right-[25%] sm:right-auto sm:scale-x-[-0.5] xl:scale-x-[-0.6] 2xl:scale-x-[-0.8] w-[169px] lg:w-[150px] 2xl:w-[319px] z-20"><Line2 /></p>
-                        <Image className="rounded-2xl z-30" src="/images/box2.jpg" alt="about" width={100} height={100} />
+                        <Image className="rounded-2xl z-30" src="images/box2.jpg" alt="about" width={100} height={100} />
                     </div>
                 </div>
             </section>

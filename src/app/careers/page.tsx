@@ -55,9 +55,9 @@ const Careers = () => {
                 </div>
                 <DesignCareers 
                     title="Design Job Openingsr" 
-                    img1="/images/Careers/UI.png" 
-                    img2="/images/Careers/UX.png" 
-                    img3="/images/Careers/Design.png" 
+                    img1="images/Careers/UI.png" 
+                    img2="images/Careers/UX.png" 
+                    img3="images/Careers/Design.png" 
                     name1="UI Designer"
                     name2="UX Designer"
                     name3="Design Head"
@@ -74,9 +74,9 @@ const Careers = () => {
                 />
                 <DesignCareers 
                     title="Development Job Openings" 
-                    img1="/images/Careers/Front.png" 
-                    img2="/images/Careers/Back.png" 
-                    img3="/images/Careers/Full.png" 
+                    img1="images/Careers/Front.png" 
+                    img2="images/Careers/Back.png" 
+                    img3="images/Careers/Full.png" 
                     name1="Front - End Developer"
                     name2="Back - End Developer"
                     name3="Full Stack Developer"
@@ -92,9 +92,9 @@ const Careers = () => {
                 />
                 <DesignCareers 
                     title="Management Job Openings" 
-                    img1="/images/Careers/BA.png" 
-                    img2="/images/Careers/Project.png" 
-                    img3="/images/Careers/HR.png" 
+                    img1="images/Careers/BA.png" 
+                    img2="images/Careers/Project.png" 
+                    img3="images/Careers/HR.png" 
                     name1="BA Manager"
                     name2="Project Manager"
                     name3="HR Manager"
@@ -111,9 +111,9 @@ const Careers = () => {
                 />
                 <DesignCareers 
                     title="QA Job Openings" 
-                    img1="/images/Careers/QA.png" 
-                    img2="/images/Careers/SQL.png" 
-                    img3="/images/Careers/Manual.png" 
+                    img1="images/Careers/QA.png" 
+                    img2="images/Careers/SQL.png" 
+                    img3="images/Careers/Manual.png" 
                     name1="QA Tester"
                     name2="SQL Tester"
                     name3="Manual Tester"

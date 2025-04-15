@@ -19,7 +19,7 @@ const AskedsCard:FC<AskedsCardProps> = ({number, question, answer}) => {
                     <DisclosureButton className="flex justify-between items-center w-full">
                     <div className="flex items-center gap-4">
                         <div className="relative z-10">
-                            <Image src="/images/panelNumber.png" alt="" width={100} height={100} />
+                            <Image src="images/panelNumber.png" alt="" width={100} height={100} />
                             <span className={`absolute top-0 left-0 w-full h-full flex items-center justify-center text-[28px] font-semibold ${open ? 'text-green80' : ''}`}>
                                 {number}
                             </span>

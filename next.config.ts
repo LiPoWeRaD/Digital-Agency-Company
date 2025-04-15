@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   basePath: "/DigitalAgencyCompany",
   output: "export", 
   reactStrictMode: true,
-  publicPath: "/DigitalAgencyCompany",
 };
 
 export default nextConfig;

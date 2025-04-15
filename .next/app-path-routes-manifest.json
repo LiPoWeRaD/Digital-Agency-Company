@@ -2,10 +2,10 @@
   "/_not-found/page": "/_not-found",
   "/favicon.ico/route": "/favicon.ico",
   "/about/page": "/about",
-  "/page": "/",
-  "/process/page": "/process",
   "/contact/page": "/contact",
   "/careers/page": "/careers",
-  "/work/page": "/work",
-  "/services/page": "/services"
+  "/page": "/",
+  "/process/page": "/process",
+  "/services/page": "/services",
+  "/work/page": "/work"
 }

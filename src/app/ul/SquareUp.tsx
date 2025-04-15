@@ -21,7 +21,7 @@ const SquareUp:FC<Props> = ({title, classImg, name, link, description, className
                     <h4 className="mb-2.5 text-[24px]">{name}</h4>
                     <Link href={link} className="px-3.5 py-2.5 text-center rounded-[8px] cursor-pointer bg-grey20">{link}</Link>
                 </div>
-                <Link href={link}><Image className="" src="/images/arrow.png" alt={title} width={50} height={50} /></Link>
+                <Link href={link}><Image className="" src="images/arrow.png" alt={title} width={50} height={50} /></Link>
             </div>
             <p className="mb-[20px] sm:mb-[100px] mx-[20px] sm:mx-[50px] text-[18px]">{description}</p>
 
