@@ -96,8 +96,8 @@ export default function Home() {
           <div className="absolute z-10 saturate-0 brightness-30 opacity-60 bg-[image:var(--bg-abstractService)] bg-no-repeat bg-cover bg-[center] w-full h-full "></div>
           <div className="absolute z-20 opacity-60 bg-[image:var(--bg-hero1)] w-full h-full"></div>
           <h2 className="mt-[120px] mb-10 text-[28px] lg:text-[48px] text-center font-semibold z-10">What our Clients say About us</h2>
-          <p className="mb-[120px] w-5/6 text-center text-lg z-10">At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. 
-            Here's what some of our satisfied clients have to say about their experience working with us</p>
+          <p className="mb-[120px] w-5/6 text-center text-lg z-10">{`At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. 
+            Here's what some of our satisfied clients have to say about their experience working with us`}</p>
         </div>
         <ul className="container mx-auto flex flex-col xl:flex-row flex-wrap">
           <ClientsCard className="w-1/2" title="SquareUp has been Instrumental in Transforming our Online Presence." description="Their team's expertise in web development and design resulted in a 
@@ -130,8 +130,8 @@ export default function Home() {
           <div className="absolute z-10 saturate-0 brightness-30 opacity-60 bg-[image:var(--bg-abstractService)] bg-no-repeat bg-cover bg-[center] w-full h-full "></div>
           <div className="absolute z-20 opacity-60 bg-[image:var(--bg-hero1)] w-full h-full"></div>
           <h2 className="mt-[120px] mb-10 text-[28px] lg:text-[48px] text-center font-semibold z-10">What our Clients say About us</h2>
-          <p className="mb-[120px] w-5/6 text-center text-lg z-10">At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. 
-            Here's what some of our satisfied clients have to say about their experience working with us</p>
+          <p className="mb-[120px] w-5/6 text-center text-lg z-10">{`At SquareUp, we take pride in delivering exceptional digital products and services that drive success for our clients. 
+            Here's what some of our satisfied clients have to say about their experience working with us`}</p>
         </div>
         <Askeds /> 
       </section>

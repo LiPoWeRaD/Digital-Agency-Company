@@ -17,8 +17,8 @@ const Services = () => {
             <section className="container mx-auto border border-grey20">
                 <div className="mx-[50px] mb-[50px] grid grid-cols-1">
                     <h2 className="mt-[20px] md:mt-[120px] mb-10 text-[28px] md:text-[48px] font-semibold">Design</h2>
-                    <p className="mb-[50px] text-lg w-4/5">At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. 
-                        We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences. </p>
+                    <p className="mb-[50px] text-lg w-4/5">{`At Squareup, our design team is passionate about creating stunning, user-centric designs that captivate your audience and elevate your brand. 
+                        We believe that great design is not just about aesthetics; it's about creating seamless and intuitive user experiences.`}</p>
                     <Btn className="w-fit" title="Our design services include:" bgColor={false} />
                 </div>
                 <div className="grid grid-cols-1 border border-grey20">
@@ -149,8 +149,8 @@ const Services = () => {
                     <div className="absolute z-20 opacity-60 bg-[image:var(--bg-hero1)] w-full h-full"></div>
                     <p className="mt-[20px] md:mt-[120px] mb-[50px] px-[19px] py-[16px] flex items-center justify-center bg-green50 rounded-[8px] z-30"><BoxLogo width={40} height={44} /></p>
                     <h2 className=" mb-10 text-[28px] lg:text-[48px] text-center font-semibold z-10">Let us Bring your Ideas to Life in the Digital World.</h2>
-                    <p className="mb-[120px] w-5/6 text-center text-lg z-10">No matter which services you choose, we are committed to delivering exceptional results that exceed your expectations. 
-                        Our multidisciplinary team works closely together to ensure seamless collaboration and a unified vision for your digital product..</p>
+                    <p className="mb-[120px] w-5/6 text-center text-lg z-10">{`No matter which services you choose, we are committed to delivering exceptional results that exceed your expectations. 
+                        Our multidisciplinary team works closely together to ensure seamless collaboration and a unified vision for your digital product..`}</p>
                     <Btn className="mb-[50px] lg:mb-[100px] xl:mb-[120px] w-fit z-20" title="Start Project" link="/" />
                 </div>
             </section>

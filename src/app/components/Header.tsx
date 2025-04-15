@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Logo from "../ul/Logo";
 import Btn from "../ul/btn";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Menu from "../svg/menu";
 import { usePathname } from "next/navigation";
 

@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Checked from '../svg/checked';
 import Slider from '../ul/slider';
 import Btn from '../ul/btn';

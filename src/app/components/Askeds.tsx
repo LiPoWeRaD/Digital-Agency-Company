@@ -1,7 +1,3 @@
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
-import Cross from '../svg/cross';
-import Plus from '../svg/plus';
-import Image from 'next/image';
 import AskedsCard from '../ul/AskedsCard';
 
 

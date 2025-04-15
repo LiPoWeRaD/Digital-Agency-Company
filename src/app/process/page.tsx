@@ -76,9 +76,9 @@ const Process = () => {
             <section className="container mx-auto border border-grey20">
                 <div className="mx-[20px] sm:mx-[50px] mb-[50px] grid grid-cols-1">
                     <h2 className="mt-[20px] md:mt-[120px] mb-10 text-[28px] md:text-[48px] font-semibold">At SquareUp</h2>
-                    <p className="mb-[50px] text-lg sm:w-4/5">We follow a structured and collaborative process to ensure the successful delivery of exceptional digital products. 
-                        Our process combines industry best practices, creative thinking, and a client-centric approach.</p>
-                    <p className="px-4 py-2 md:px-6 md:py-4 rounded-[8px] sm:w-fit bg-grey1 border border-grey20">Here's an overview of our typical process:</p>
+                    <p className="mb-[50px] text-lg sm:w-4/5">{`We follow a structured and collaborative process to ensure the successful delivery of exceptional digital products. 
+                        Our process combines industry best practices, creative thinking, and a client-centric approach.`}</p>
+                    <p className="px-4 py-2 md:px-6 md:py-4 rounded-[8px] sm:w-fit bg-grey1 border border-grey20">{`Here's an overview of our typical process:`}</p>
                 </div>
                 <ul className="grid grid-cols-1 md:grid-cols-2">
                     {processCardsList.map((item, index) => (

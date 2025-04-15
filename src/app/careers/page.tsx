@@ -1,5 +1,4 @@
 import CareersCard from "../ul/CareersCard"
-import ClientsCard from "../ul/ClientsCard"
 import DesignCareers from "../ul/DesignCareers"
 import TodaySquareUp from "../ul/TodaySquareUp"
 
@@ -18,9 +17,9 @@ const Careers = () => {
             <section className="container mx-auto border border-grey20">
                 <div className="mx-[20px] sm:mx-[50px] mb-[50px] grid grid-cols-1">
                     <h2 className="mt-[20px] md:mt-[120px] mb-10 text-[28px] md:text-[48px] font-semibold">Welcome to SquareUp, where talent meets opportunity!</h2>
-                    <p className="mb-[50px] text-lg sm:w-4/5">At SquareUp, we believe that the success of our agency lies in the talent, passion, and dedication of our team members. 
+                    <p className="mb-[50px] text-lg sm:w-4/5">{`At SquareUp, we believe that the success of our agency lies in the talent, passion, and dedication of our team members. 
                         We are a digital product agency that thrives on innovation, creativity, and collaboration. 
-                        If you're ready to make a difference and contribute to cutting-edge projects, we invite you to explore career opportunities with us.</p>
+                        If you're ready to make a difference and contribute to cutting-edge projects, we invite you to explore career opportunities with us.`}</p>
                     <p className="px-4 py-2 md:px-6 md:py-4 rounded-[8px] sm:w-fit bg-grey1 border border-grey20">Why Work at SquareUp?:</p>
                 </div>
             </section>
@@ -51,8 +50,8 @@ const Careers = () => {
             <section className="container mx-auto bg-grey15">
                 <div className="flex px-[40px] xl:px-[50px] flex-col border border-grey20">
                     <h2 className="mt-[20px] md:mt-[120px] mb-10 text-[28px] md:text-[48px] font-semibold">Current Openings</h2>
-                    <p className="mb-[50px] text-lg">We are always on the lookout for talented individuals who are passionate about creating exceptional digital experiences. 
-                        Whether you're a designer, engineer, project manager, or have skills that align with our agency's mission, we encourage you to explore our open positions.</p>
+                    <p className="mb-[50px] text-lg">{`We are always on the lookout for talented individuals who are passionate about creating exceptional digital experiences. 
+                        Whether you're a designer, engineer, project manager, or have skills that align with our agency's mission, we encourage you to explore our open positions.`}</p>
                 </div>
                 <DesignCareers 
                     title="Design Job Openingsr" 
