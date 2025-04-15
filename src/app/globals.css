@@ -4,34 +4,34 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --bg-hero1: url("/images/heroSection1.png");
-  /* --bg-hero1: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/heroSection1.png`); */
-  --bg-abstractDesign: url("/images/abstractDesign.png");
-  /* --bg-abstractDesign: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/abstractDesign.png`); */
-  --bg-abstractService: url("/images/abstractService.png");
-  /* --bg-abstractService: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/abstractService.png`); */
-  --bg-abstractAbout: url("/images/abstractAbout.png");
-  /* --bg-abstractAbout: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/abstractAbout.png`); */
-  --bg-SquareUp1: url("/images/work/ChicBoutique.jpg");
-  /* --bg-SquareUp1: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/ChicBoutique.jpg`); */
-  --bg-SquareUp2: url("/images/work/HungryBites.jpg");
-  /* --bg-SquareUp2: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/HungryBites.jpg`); */
-  --bg-SquareUp3: url("/images/work/EventMasters.jpg");
-  /* --bg-SquareUp3: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/EventMasters.jpg`); */
-  --bg-SquareUp4: url("/images/work/ProTechSolutions.jpg");
-  /* --bg-SquareUp4: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/ProTechSolutions.jpg`); */
-  --bg-SquareUp5: url("/images/work/DreamHomesRealty.jpg");
-  /* --bg-SquareUp5: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/DreamHomesRealty.jpg`); */
-  --bg-SquareUp6: url("/images/work/FitLifeTracker.jpg");
-  /* --bg-SquareUp6: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/FitLifeTracker.jpg`); */
-  --bg-SquareUp7: url("/images/work/GlobalLogisticsSolutions.jpg");
-  /* --bg-SquareUp7: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/GlobalLogisticsSolutions.jpg`); */
-  --bg-SquareUp8: url("/images/work/EduConnect.jpg");
-  /* --bg-SquareUp8: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/EduConnect.jpg`); */
-  --bg-SquareUp9: url("/images/work/WanderWise.jpg");
-  /* --bg-SquareUp9: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/WanderWise.jpg`); */
-  --bg-SquareUp10: url("/images/work/ConnectCRM.jpg");
-  /* --bg-SquareUp10: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/work/ConnectCRM.jpg`); */
+  --bg-hero1: url("/Digital-Agency-Company/images/heroSection1.png");
+  /* --bg-hero1: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/heroSection1.png`); */
+  --bg-abstractDesign: url("/Digital-Agency-Company/images/abstractDesign.png");
+  /* --bg-abstractDesign: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/abstractDesign.png`); */
+  --bg-abstractService: url("/Digital-Agency-Company/images/abstractService.png");
+  /* --bg-abstractService: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/abstractService.png`); */
+  --bg-abstractAbout: url("/Digital-Agency-Company/images/abstractAbout.png");
+  /* --bg-abstractAbout: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/abstractAbout.png`); */
+  --bg-SquareUp1: url("/Digital-Agency-Company/images/work/ChicBoutique.jpg");
+  /* --bg-SquareUp1: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/ChicBoutique.jpg`); */
+  --bg-SquareUp2: url("/Digital-Agency-Company/images/work/HungryBites.jpg");
+  /* --bg-SquareUp2: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/HungryBites.jpg`); */
+  --bg-SquareUp3: url("/Digital-Agency-Company/images/work/EventMasters.jpg");
+  /* --bg-SquareUp3: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/EventMasters.jpg`); */
+  --bg-SquareUp4: url("/Digital-Agency-Company/images/work/ProTechSolutions.jpg");
+  /* --bg-SquareUp4: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/ProTechSolutions.jpg`); */
+  --bg-SquareUp5: url("/Digital-Agency-Company/images/work/DreamHomesRealty.jpg");
+  /* --bg-SquareUp5: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/DreamHomesRealty.jpg`); */
+  --bg-SquareUp6: url("/Digital-Agency-Company/images/work/FitLifeTracker.jpg");
+  /* --bg-SquareUp6: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/FitLifeTracker.jpg`); */
+  --bg-SquareUp7: url("/Digital-Agency-Company/images/work/GlobalLogisticsSolutions.jpg");
+  /* --bg-SquareUp7: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/GlobalLogisticsSolutions.jpg`); */
+  --bg-SquareUp8: url("/Digital-Agency-Company/images/work/EduConnect.jpg");
+  /* --bg-SquareUp8: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/EduConnect.jpg`); */
+  --bg-SquareUp9: url("/Digital-Agency-Company/images/work/WanderWise.jpg");
+  /* --bg-SquareUp9: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/WanderWise.jpg`); */
+  --bg-SquareUp10: url("/Digital-Agency-Company/images/work/ConnectCRM.jpg");
+  /* --bg-SquareUp10: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/Digital-Agency-Company/images/work/ConnectCRM.jpg`); */
 }
 
 @theme inline {
