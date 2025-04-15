@@ -4,8 +4,8 @@
   "/about/page": "/about",
   "/contact/page": "/contact",
   "/careers/page": "/careers",
-  "/page": "/",
-  "/process/page": "/process",
   "/services/page": "/services",
+  "/process/page": "/process",
+  "/page": "/",
   "/work/page": "/work"
 }
