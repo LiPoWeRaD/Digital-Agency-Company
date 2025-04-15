@@ -1,12 +1,23 @@
 import type { NextConfig } from "next";
+
 const isProd = process.env.NODE_ENV === 'production';
+const repoName = '/Digital-Agency-Company';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-  basePath: isProd ? '/Digital-Agency-Company' : '',
-  assetPrefix: isProd ? '/Digital-Agency-Company' : '',
-  output: "export", 
-  reactStrictMode: true,
-};
-
-export default nextConfig;
+module.exports = {
+  output: 'export',
+  basePath: isProd ? repoName : '',
+  assetPrefix: isProd ? repoName : '',
+  images: {
+    unoptimized: true,
+  },
+  webpack: (config: any) => {
+    config.module.rules.push({
+      test: /\.(png|jpg|jpeg|gif|svg)$/i,
+      type: 'asset/resource',
+      generator: {
+        filename: 'static/media/[name].[hash][ext]'
+      }
+    });
+    return config;
+  }
+}

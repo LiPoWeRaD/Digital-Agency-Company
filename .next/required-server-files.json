@@ -2,7 +2,6 @@
   "version": 1,
   "config": {
     "env": {},
-    "webpack": null,
     "eslint": {
       "ignoreDuringBuilds": false
     },
@@ -59,7 +58,7 @@
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
       "remotePatterns": [],
-      "unoptimized": false
+      "unoptimized": true
     },
     "devIndicators": {
       "position": "bottom-left"
@@ -80,7 +79,7 @@
     "serverRuntimeConfig": {},
     "publicRuntimeConfig": {},
     "reactProductionProfiling": false,
-    "reactStrictMode": true,
+    "reactStrictMode": null,
     "reactMaxHeadersLength": 6000,
     "httpAgentOptions": {
       "keepAlive": true

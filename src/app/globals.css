@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
+
   --bg-hero1: url("/images/heroSection1.png");
   /* --bg-hero1: url(`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/images/heroSection1.png`); */
   --bg-abstractDesign: url("/images/abstractDesign.png");
