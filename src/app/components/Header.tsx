@@ -28,7 +28,7 @@ const Header = () => {
                     onClick={toggleMenu}
                 >
                     <div className="w-6 flex flex-col gap-1.5 mr-5">
-                        <button type="submit" className="flex  p-2 justify-center items-center w-[46px] h-[46px] bg-grey20 rounded-2xl"><Menu /></button>
+                        <button type="button" className="flex p-2 justify-center items-center w-[46px] h-[46px] bg-grey20 rounded-2xl cursor-pointer"><Menu /></button>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Header = () => {
                         <li className={`px-6 py-3 ${path === '/' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/">Home</Link></li>
                         <li className={`px-6 py-3 ${path === '/services' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/services">Services</Link></li>
                         <li className={`px-6 py-3 ${path === '/work' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/work">Work</Link></li>
-                        <li className={`px-6 py-3 ${path === '/process' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/process">Contact</Link></li>
+                        <li className={`px-6 py-3 ${path === '/process' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/process">Process</Link></li>
                         <li className={`px-6 py-3 ${path === '/about' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/about">About</Link></li>
                         <li className={`px-6 py-3 ${path === '/careers' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/careers">Careers</Link></li>
                     </ul>

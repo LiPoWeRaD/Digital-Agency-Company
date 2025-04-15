@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         <Askeds /> 
       </section>
-      <section className="container mx-auto bg-grey15">
+      <section className="container mx-auto bg-grey15 border border-grey20">
         <div className="relative z-20 flex flex-col items-center bg-[#ACFF2433]">
           <div className="absolute z-10 saturate-0 brightness-30 opacity-60 bg-[image:var(--bg-abstractService)] bg-no-repeat bg-cover bg-[center] w-full h-full "></div>
           <div className="absolute z-20 opacity-60 bg-[image:var(--bg-hero1)] w-full h-full"></div>

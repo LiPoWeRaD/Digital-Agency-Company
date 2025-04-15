@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <footer className="bg-grey1 py-10">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col lg:flex-row pb-[50px] items-center justify-between gap-6 border-b border-grey20">
+                <div className="flex flex-col xl:flex-row pb-[50px] items-center justify-between gap-6 border-b border-grey20">
                     <Logo />
                     <nav>
                         <ul className="flex flex-wrap justify-center items-center gap-4">
@@ -23,7 +23,7 @@ const Footer = () => {
                             <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </nav>
-                    <div className="flex flex-col lg:flex-row p-3.5 border border-grey20 items-center gap-5 rounded-[8px]">
+                    <div className="flex flex-col xl:flex-row p-3.5 border border-grey20 items-center gap-5 rounded-[8px]">
                         <p>Stay Connected</p>
                         <ul className="flex items-center gap-x-4">
                             <li><Link href="/"><Image src="/facebook.png" alt="facebook" width={64} height={64} /></Link></li>
@@ -32,8 +32,8 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="flex flex-col lg:flex-row mt-[50px] gap-y-4 items-center justify-between">
-                    <ul className="flex flex-col lg:flex-row items-center gap-4">
+                <div className="flex flex-col xl:flex-row mt-[50px] gap-y-4 items-center justify-between">
+                    <ul className="flex flex-col xl:flex-row items-center gap-4">
                         <li><Link className="flex pb-[17px] gap-2.5 border-b border-grey20" type="email" href="#"><Email /><span>hello@squareup.com</span></Link></li>
                         <li><Link className="flex pb-[17px] gap-2.5 border-b border-grey20" type="tel" href="#"><Phone /><span>+91 91813 23 2309</span></Link></li>
                         <li><Link className="flex pb-[17px] gap-2.5 border-b border-grey20" type="location" href="#"><Location /><span>Somewhere in the World</span></Link></li>
