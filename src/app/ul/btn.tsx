@@ -6,7 +6,7 @@ interface Props {
     link?: string
     className?: string
 }
-
+// https://lipowerad.github.io/Digital-Agency-Company/contact
 const Btn:FC<Props> = ({title, bgColor = true, link, className}) => {
    return (
        <>

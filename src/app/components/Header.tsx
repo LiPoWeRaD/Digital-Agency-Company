@@ -46,7 +46,7 @@ const Header = () => {
 
                 {/* Кнопка Contact Us (скрывается на мобильных) */}
                 <div className="hidden lg:block">
-                    <Btn title="Contact Us" link="/contact" />
+                    <Btn title="Contact Us" link={`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/contact`} />
                 </div>
 
                 {/* Мобильное меню (появляется по клику на бургер) */}

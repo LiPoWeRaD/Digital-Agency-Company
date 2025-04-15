@@ -93,7 +93,7 @@ const Process = () => {
                     <p className="mt-[120px] mb-[50px] px-[19px] py-[16px] flex items-center justify-center bg-green50 rounded-[8px] z-30"><BoxLogo width={40} height={44} /></p>
                     <h2 className=" mb-10 text-[28px] lg:text-[48px] text-center font-semibold z-10">Thank you for your Interest in SquareUp.</h2>
                     <p className="mb-[50px] w-5/6 text-center text-lg z-10">We would love to hear from you and discuss how we can help bring your digital ideas to life. Here are the different ways you can get in touch with us.</p>
-                    <Btn className="mb-[50px] lg:mb-[100px] 2xl:mb-[120px] z-10" title="Contact Us" link="/contact" />
+                    <Btn className="mb-[50px] lg:mb-[100px] 2xl:mb-[120px] z-50" title="Contact Us" link="/contact" />
                 </div>
                 <FormMain />
             </section>
