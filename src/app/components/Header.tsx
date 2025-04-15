@@ -46,7 +46,7 @@ const Header = () => {
 
                 {/* Кнопка Contact Us (скрывается на мобильных) */}
                 <div className="hidden lg:block">
-                    <Btn title="Contact Us" link={`${process.env.NODE_ENV === 'production' ? '/Digital-Agency-Company' : ''}/contact`} />
+                    <Btn title="Contact Us" link="/Digital-Agency-Company/contact" />
                 </div>
 
                 {/* Мобильное меню (появляется по клику на бургер) */}
@@ -56,11 +56,11 @@ const Header = () => {
                             <li className={`px-6 py-3 ${path === '/' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/" onClick={toggleMenu}>Home</Link></li>
                             <li className={`px-6 py-3 ${path === '/services' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/services" onClick={toggleMenu}>Services</Link></li>
                             <li className={`px-6 py-3 ${path === '/work' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/work" onClick={toggleMenu}>Work</Link></li>
-                            <li className={`px-6 py-3 ${path === '/process' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/Process" onClick={toggleMenu}>Contact</Link></li>
+                            <li className={`px-6 py-3 ${path === '/process' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/process" onClick={toggleMenu}>Contact</Link></li>
                             <li className={`px-6 py-3 ${path === '/about' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/about" onClick={toggleMenu}>About</Link></li>
                             <li className={`px-6 py-3 ${path === '/careers' ? 'bg-grey20 rounded-md' : ''}`}><Link href="/careers" onClick={toggleMenu}>Careers</Link></li>
                             <li className="mt-2">
-                                <Btn title="Contact Us" link="/contact" />
+                                <Btn title="Contact Us" link="/Digital-Agency-Company/contact" />
                             </li>
                         </ul>
                     </div>

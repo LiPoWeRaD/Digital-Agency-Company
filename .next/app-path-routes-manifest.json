@@ -3,9 +3,9 @@
   "/favicon.ico/route": "/favicon.ico",
   "/about/page": "/about",
   "/careers/page": "/careers",
-  "/process/page": "/process",
+  "/services/page": "/services",
   "/contact/page": "/contact",
+  "/process/page": "/process",
   "/page": "/",
-  "/work/page": "/work",
-  "/services/page": "/services"
+  "/work/page": "/work"
 }
