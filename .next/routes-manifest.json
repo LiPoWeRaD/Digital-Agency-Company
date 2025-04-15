@@ -2,15 +2,15 @@
   "version": 3,
   "pages404": true,
   "caseSensitive": false,
-  "basePath": "/DigitalAgencyCompany",
+  "basePath": "/Digital-Agency-Company",
   "redirects": [
     {
-      "source": "/DigitalAgencyCompany/",
-      "destination": "/DigitalAgencyCompany",
+      "source": "/Digital-Agency-Company/",
+      "destination": "/Digital-Agency-Company",
       "basePath": false,
       "internal": true,
       "statusCode": 308,
-      "regex": "^/DigitalAgencyCompany/$"
+      "regex": "^/Digital-Agency-Company/$"
     },
     {
       "source": "/:path+/",

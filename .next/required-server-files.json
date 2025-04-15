@@ -12,7 +12,7 @@
     },
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/DigitalAgencyCompany",
+    "assetPrefix": "/Digital-Agency-Company",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.ts",
     "useFileSystemPublicRoutes": true,
@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/DigitalAgencyCompany/_next/image",
+      "path": "/Digital-Agency-Company/_next/image",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -69,9 +69,9 @@
       "pagesBufferLength": 5
     },
     "amp": {
-      "canonicalBase": "/DigitalAgencyCompany"
+      "canonicalBase": "/Digital-Agency-Company"
     },
-    "basePath": "/DigitalAgencyCompany",
+    "basePath": "/Digital-Agency-Company",
     "sassOptions": {},
     "trailingSlash": false,
     "i18n": null,
