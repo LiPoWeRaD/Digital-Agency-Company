@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --bg-hero1: url("/heroSection1.png");
+  --bg-abstractDesign: url("/abstractDesign.png");
+  --bg-abstractService: url("/abstractService.png");
+  --bg-SquareUp1: url("/work/ChicBoutique.jpg");
+  --bg-SquareUp2: url("/work/HungryBites.jpg");
+  --bg-SquareUp3: url("/work/EventMasters.jpg");
+  --bg-SquareUp4: url("/work/ProTechSolutions.jpg");
+  --bg-SquareUp5: url("/work/DreamHomesRealty.jpg");
+  --bg-SquareUp6: url("/work/FitLifeTracker.jpg");
+  --bg-SquareUp7: url("/work/GlobalLogisticsSolutions.jpg");
+  --bg-SquareUp8: url("/work/EduConnect.jpg");
+  --bg-SquareUp9: url("/work/WanderWise.jpg");
+  --bg-SquareUp10: url("/work/ConnectCRM.jpg");
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-grey1: #242424D1;
+  --color-grey10: #1A1A1A;
+  --color-grey15: #262626;
+  --color-grey20: #333333;
+  --color-green50: #9EFF00;
+  --color-green80: #D8FF99;
+  --bg-hero1: var(--bg-hero1);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
